@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+.wrapper {
+  width: 96%;
+  color: #fff;
+  padding: 2%;
+  font-family: "Bookman, URW Bookman L", serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col {
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tab_wrapper {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_tab_container {
+  width: 15%;
+  font-size: 18px;
+}
+.right_tab_container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_container {
+  width: 30px;
+  height: 30px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.tab_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35%;
+  font-weight: bold;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+.kate{
+  /* display: flex;
+  justify-content: flex-end; */
+  width: 15%;
+  /* background-color: #9a9a9a; */
+}
+.category {
+  width: 57%;
+}
+.icon {
+  width: 15px;
+  height: 15px;
+}
+.bag {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user_name {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.right_user_icon {
+  width: 20px;
+  height: 20px;
+  /* padding: 5px;
+  border: 0; */
+}
+.right_user_name {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.login_name {
+  margin-right: 10px;
+  font-size: 10px;
+}
+.login_icon {
+  width: 15px;
+  height: 15px;
+}
+.details {
+  display: flex;
+  height: 300px;
+  padding: 15px;
+}
+.bag_desc{
+}
+.bag_details {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Bookman, URW Bookman L", serif;
+  margin: 0;
+}
+
+.price{
+  font-size: 14px;
+  margin: 20px 0px 20px 0px;
+}
+.var_image {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.buy_now {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 10px;
+  color: #9a9a9a;
+  margin-right: 10px;
+}
+.bin {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.button {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+.image_row {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.details_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+}
+.main_bag {
+  width: 75%;
+  height: 75%;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
 }
